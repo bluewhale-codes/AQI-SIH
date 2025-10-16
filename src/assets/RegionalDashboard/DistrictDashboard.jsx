@@ -3,7 +3,7 @@ import React from "react";
 import AQICardB from "./AQICardB";
 import MyMap from "../../pages/MyMap";
 import RuralRegionNavbar from "../../Compo/RuralRegionNavbar";
-import AQIGridMap from "./AqiGridMap";
+
 import FarmingAQICalendar from "./FarmingAQICalendar";
 const ruralUPRegions = [
   'Sitapur',
