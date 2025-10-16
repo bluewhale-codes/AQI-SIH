@@ -16,11 +16,11 @@ const Navbar = () => {
 
       {/* Desktop Links */}
       <div className="hidden md:flex items-center space-x-6 text-gray-700 font-medium">
-        <Link to="/training" className="hover:text-blue-600 transition">
+        <Link to="/MeriHawa" className="hover:text-blue-600 transition">
           Citizen
         </Link>
-        <Link to="/dashboard" className="hover:text-blue-600 transition">
-          Government Oranization
+        <Link to="/organization" className="hover:text-blue-600 transition">
+          Oranizations
         </Link>
         <button className="px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition">
           Login

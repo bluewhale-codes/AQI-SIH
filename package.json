@@ -10,13 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@turf/bbox": "^7.2.0",
+    "file-saver": "^2.0.5",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.545.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-icons": "^5.5.0",
     "react-leaflet": "^5.0.0",
-    "react-router-dom": "^7.9.4"
+    "react-router-dom": "^7.9.4",
+    "shpjs": "^6.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

@@ -23,8 +23,10 @@ const getAqiColor = (aqi) => {
 
 const MyMap = () => {
   // Example location (replace with your coordinates)
-  const [position, setPosition] = useState({ lat: 30.7333, lng: 76.7794 }); // Chandigarh
+  const [position, setPosition] = useState({ lat:26.073434847889516, lng:83.18680030030717}); // Chandigarh
   const [aqi, setAqi] = useState(125); // Example AQI value
+
+
 
   useEffect(() => {
     // Later you can fetch AQI data dynamically here

@@ -3,9 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './Compo/Navbar'
 import AQICard from './pages/AQICard'
-
+import Banner from './Compo/Banner'
 
 import UserDashboard from './pages/UserDashboard'
+import DistrictDashboard from './assets/RegionalDashboard/DistrictDashboard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
        <Navbar/>
       <Routes>
         <Route path="/MeriHawa" element={<UserDashboard/>} />
-        <Route path="/card" element={<AQICard/>} />
+        <Route path="/organization" element={<Banner/>} />
+        <Route path="/reagion" element={<DistrictDashboard/>} />
       
        
       </Routes>
