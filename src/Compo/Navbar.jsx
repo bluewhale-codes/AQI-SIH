@@ -72,7 +72,7 @@ const Navbar = () => {
           ></div>
           
           {/* Menu Content */}
-          <div className="absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 md:hidden">
+          <div className="relative z-50 absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 md:hidden">
             <div className="flex flex-col px-4 py-6 space-y-6">
               
               {/* Profile Section - Top of mobile menu */}
@@ -93,20 +93,20 @@ const Navbar = () => {
               </Link>
               
               {/* Navigation Links */}
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-4 ">
                 <Link 
-                  to="/training" 
+                  to="/MeriHawa" 
                   className="text-lg font-medium text-gray-700 hover:text-blue-600 transition py-2 border-b border-gray-100"
                   onClick={() => setIsOpen(false)}
                 >
-                  Home
+                  Citizen
                 </Link>
                 <Link 
-                  to="/dashboard" 
+                  to="/organization" 
                   className="text-lg font-medium text-gray-700 hover:text-blue-600 transition py-2 border-b border-gray-100"
                   onClick={() => setIsOpen(false)}
                 >
-                  Dashboard
+                  Organizations
                 </Link>
               </div>
               
