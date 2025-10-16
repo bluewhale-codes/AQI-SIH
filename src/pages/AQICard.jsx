@@ -13,9 +13,9 @@ const AQICard = ({
   windSpeed = 1.1,
   lastUpdated = "08:30, October 16",
   forecast = [
-    { day: "Thursday", aqi: 145, high: 28, low: 19 },
-    { day: "Friday", aqi: 151, high: 29, low: 19 },
-    { day: "Saturday", aqi: 149, high: 29, low: 19 }
+    { day: "NO2", aqi: 64.7, high: 28, low: 19 },
+    { day: "O3", aqi: 45.7, high: 29, low: 19 },
+    { day: "PM2.5", aqi: 87.7, high: 29, low: 19 }
   ],
   className = "" // Allow custom classes from parent
 }) => {
@@ -119,9 +119,9 @@ const AQICard = ({
               </div>
               <div className="flex items-center justify-center gap-1 mb-0.5 sm:mb-1">
                 <BsSunFill className="text-yellow-500 text-xs" />
-                <span className="text-xs text-gray-700 font-medium">{day.low}°</span>
+                <span className="text-xs text-gray-700 font-medium">{day.low}</span>
               </div>
-              <p className="text-xs text-gray-500">{day.high}°</p>
+              <p className="text-xs text-gray-500">{day.high}</p>
             </div>
           ))}
         </div>
@@ -130,7 +130,7 @@ const AQICard = ({
       {/* Footer Button */}
       <div className="px-4 sm:px-5 pb-4 sm:pb-5">
         <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 sm:py-3 rounded-lg transition duration-200 shadow-sm text-sm sm:text-base">
-          7-DAYS HISTORY
+          µg/m³
         </button>
       </div>
     </div>
